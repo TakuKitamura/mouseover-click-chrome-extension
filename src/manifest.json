@@ -1,0 +1,13 @@
+{
+  "name": "Mouseover Click",
+  "version": "0.0.1",
+  "description": "This is an mouseover-click-extention.",
+  "permissions": [],
+  "content_scripts": [
+      {
+          "matches": ["http://*/*", "https://*/*"],
+          "js": ["mouseover-click.js"]
+      }
+  ],
+  "manifest_version": 2
+}
